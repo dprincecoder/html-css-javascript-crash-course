@@ -66,8 +66,8 @@ li {
 .hidden {
 	position: absolute;
 	background-color: rgb(90, 194, 42);
-	width: 80%;
-	right: -30rem;
+	width: 40%;
+	right: -60rem;
 	display: flex;
 	height: 50%;
 	top: 0;

@@ -11,12 +11,13 @@ btn.addEventListener("click", () => {
 
 header.addEventListener("mousemove", () => {
 	navList.style.listStyle = "none";
+	header.style.backgroundColor = "red";
 });
 
 header.addEventListener("mouseleave", () => {
 	navList.style.listStyle = "dotted";
 });
 
-closeBtn.addEventListener('click', () => {
-    hiddenEl.style.right = '-30rem'
-})
+closeBtn.addEventListener("click", () => {
+	hiddenEl.style.right = "-80rem";
+});
